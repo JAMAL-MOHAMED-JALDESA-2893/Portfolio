@@ -1,8 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  outline: none;
-  box-sizing: border-box;
+  
+
 
  
   font-family: "Special Elite", cursive;
@@ -13,16 +13,12 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-
-  padding: 3rem;
-}
+ 
 
 header {
   position: absolute;
   z-index: 10;
   width: 100%;
-
 }
 
 .navbar {
@@ -47,12 +43,20 @@ header {
 
 .banner {
   position: relative;
-  background: url("./assets/rep.jpg");
+  background: url("./assets/salman-hossain-saif-KcbD8QoBGIk-unsplash.jpg");
   min-height: 100vh;
   background-size: cover;
   background-position: center;
+
 }
 
 .logo {
   height: 45px;
 }
+
+.container {
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+}
+
