@@ -3,19 +3,18 @@
   padding: 0;
   outline: none;
   box-sizing: border-box;
-  text-decoration: none;
-  list-style-type: none;
+
+ 
   font-family: "Special Elite", cursive;
-  font-weight: 400;
+
 }
 
 html {
-  font-size: 62.5%;
   scroll-behavior: smooth;
 }
 
 body {
-  background-color: #ccc;
+
   padding: 3rem;
 }
 
@@ -24,6 +23,26 @@ header {
   z-index: 10;
   width: 100%;
 
+}
+
+.navbar {
+  padding: 20px;
+}
+
+.nav-item {
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover,
+.navbar-light .navbar-nav .nav-item.active .nav-link {
+  background:greenyellow;
+  color: white;
+  border-radius: 7px;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link {
+  padding: 6px 17px;
 }
 
 .banner {
@@ -35,5 +54,5 @@ header {
 }
 
 .logo {
-  height: 35px;
+  height: 45px;
 }
