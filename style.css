@@ -16,5 +16,12 @@ html {
 
 body {
   background-color: #ccc;
-  padding-right: 3rem;
+  padding: 3rem;
+}
+
+.banner {
+  position: relative;
+  background: url("./assets/rep.jpg");
+  min-height: 100vh;
+  background-size: cover;
 }
