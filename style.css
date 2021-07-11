@@ -485,7 +485,7 @@ ul li {
   vertical-align: middle;
 }
 .btn-gradient.rounded {
-  border-radius: 51% 49% 9% 91% / 52% 47% 53% 48% ;
+  border-radius:100px ;
   border:  1px solid rgba(255,255,255,.54);
 }
 
