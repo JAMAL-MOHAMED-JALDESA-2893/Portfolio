@@ -535,6 +535,24 @@ ul li {
 padding-top: 0;
 }
 
+.scroll-up-btn {
+  width: 5rem;
+  height: 5rem;
+  background-color: rgba(222, 233, 235, 0.8);
+  position: fixed;
+  bottom: 5rem;
+  right: 5rem;
+  border-radius: 50%;
+  font-size: 1.6rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.5s;
+}
 
+.scroll-up-btn:hover {
+  background-color: #242525;
+}
 
 /*END OF FOOTER SECTION */
