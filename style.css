@@ -53,7 +53,7 @@ header {
 
 .banner {
   position: relative;
-  background: url("./assets/salman-hossain-saif-KcbD8QoBGIk-unsplash.jpg");
+  background: url("./assets/landing.jpg");
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -336,8 +336,8 @@ p, .text {
 /* CONTACT SECTION */
 
 .section-contact {
-  background: linear-gradient( bottom to top rgba(129, 116, 116, 0.6), rgba(214, 208, 208, 0.8)),
-    url(images/bg-section5.jpg) center no-repeat;
+  background: linear-gradient( bottom to top rgba(84, 135, 194, 0.014), rgba(214, 208, 208, 0.8)),
+    url("./assets/contact.jpg") center no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -351,7 +351,7 @@ p, .text {
 .contact-heading {
   font-size: 60px;
   font-weight: 400;
-  color: rgb(53, 42, 42);
+  color: rgb(23, 95, 184);
   margin-bottom: 60px;
   letter-spacing: 35px;
   text-align: center;
@@ -363,17 +363,17 @@ p, .text {
 .contact-form {
   width: 40rem;
   height: 30rem;
-  background-color: rgba(255, 255, 255, 0.2);
-  border: 1rem solid rgba(124, 116, 116, 0.8);
+  background-color: rgba(182, 171, 171, 0);
+  border: 1rem solid rgba(124, 116, 116, 0.027);
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 2rem;
   margin-bottom: 100px;
   border-radius: 25px;
-  background: #dee3e4;
-  box-shadow:  20px 20px 60px #525a5b,
-               -20px -20px 60px #707a7b;
+  background: #6dcadd;
+  box-shadow:  20px 20px 60px #dbf9fd,
+               -20px -20px 60px #bac4c5;
 }
 
 .contact-form input,
@@ -383,7 +383,7 @@ p, .text {
   margin: 1.5rem 0;
   background-color: transparent;
   padding: 0.5rem;
-  border: 0.1rem solid rgb(112, 97, 97);
+  border: 0.1rem solid rgb(62, 157, 192);
   font-size: 1rem;
   letter-spacing: 0.1rem;
   color: rgb(112, 98, 98);
@@ -397,7 +397,7 @@ p, .text {
 }
 
 .form-input:focus {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(111, 179, 184, 0.5);
 }
 
 
@@ -410,13 +410,13 @@ p, .text {
    border-radius: 100px;
    transition: all .2s;
    position: relative;
-   background-color: rgb(114, 100, 100);
+   background-color: rgb(31, 17, 231);
    color: #fff;
  }
 
  .btn:hover {
    transform: translateY(-3px);
-   box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+   box-shadow: 0 10px 20px rgba(51, 46, 46, 0.2);
  }
 
  .btn:active {
@@ -445,7 +445,7 @@ p, .text {
   display: flex;
   align-items: center;
   justify-content:center;
-  background: #5d6464;
+  background: #2e3b68;
 }
 .footer-section {
   margin: 10px;
