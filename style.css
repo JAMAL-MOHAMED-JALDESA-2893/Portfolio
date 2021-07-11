@@ -2,18 +2,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
+  outline: none;
 
  
   font-family: "Special Elite", cursive;
-
 }
 
 html {
   scroll-behavior: smooth;
 }
-
- 
 
 header {
   position: absolute;
@@ -218,5 +215,6 @@ p, .text {
 }
 
 .sec-title.light .title, .sec-title.light h2 {
+
   animation: moveInRight 1.3s ease-out;
 }
