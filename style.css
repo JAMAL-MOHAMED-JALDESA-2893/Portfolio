@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   outline: none;
-
+ 
  
   font-family: "Special Elite", cursive;
 }
@@ -13,7 +13,8 @@ html {
 }
 
 body{
-  margin: auto;
+margin: 1rem;
+ 
 }
 
 header {
@@ -221,4 +222,17 @@ p, .text {
 .sec-title.light .title, .sec-title.light h2 {
 
   animation: moveInRight 1.3s ease-out;
+}
+
+.project-section {
+  width: 100%;
+  height: 100vh;
+  background-color: #dba1a1;
+  position: relative;
+  left: 10px;
+  margin-bottom: 0rem;
+  transform-origin: left;
+  box-shadow: 0.5rem 0.5rem 1rem #aaa;
+  padding: 3rem 0;
+  transition: left 0.5s, transform 0.5s;
 }
