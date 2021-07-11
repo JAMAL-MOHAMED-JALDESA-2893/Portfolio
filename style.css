@@ -205,4 +205,15 @@ header {
   background-size: cover;
   padding: 90px 0px 250px;
   background-position:top center ;
+
+}
+
+.main-banner-section .text p {
+  color: darkgray;
+  text-align: justify;
+}
+
+p, .text {
+  
+  text-align: justify;
 }
