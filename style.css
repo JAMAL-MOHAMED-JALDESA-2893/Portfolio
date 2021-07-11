@@ -12,6 +12,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body{
+  margin: auto;
+}
+
 header {
   position: absolute;
   z-index: 10;
