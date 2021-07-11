@@ -604,33 +604,38 @@ padding-top: 0;
 
 @media (max-width: 600px) {
   html {
-    font-size: 55.5%;
+    font-size: 59.5%;
   }
 
- 
+  
 
-  .menu.change {
-    left: 40vw;
+ .contact-heading {
+   font-size: 2.6rem ;
+ }
+
+
+ .project-heading {
+  font-size: 2.6rem ;
+ }
+
+  
+  
+  .heading-primary-main {
+    font-size: 2.7rem;
+    font-weight: 900;
   }
 
-  section.change {
-    left: 0;
-    transform: rotateY(0);
+  .heading-primary-sub {
+    font-size: 2rem;
   }
 
-  .section-heading {
-    font-size: 4.5rem;
-  }
-
-  .section-1-img {
-    width: 100%;
-  }
+  
 
   
 
   .contact-form {
     width: 36rem;
-    border: 1rem solid rgba(255, 255, 255, 0.8);
+    border: 0.7rem solid rgba(255, 255, 255, 0.8);
   }
 }
 
@@ -638,6 +643,7 @@ padding-top: 0;
   html {
     font-size: 40%;
   }
+
 
   .copyright {
     width: 80%;
