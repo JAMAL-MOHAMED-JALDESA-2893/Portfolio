@@ -178,7 +178,7 @@ header {
 }
 
 .btn-white::after {
-  background-color: #fff;
+  background-color: rgb(219, 163, 163);
 }
 
 .btn:hover::after {
@@ -203,18 +203,17 @@ header {
   position: relative;
   background-image: url("./customer1.jpeg");
   background-size: cover;
-  padding: 90px 0px 250px;
+  padding: 90px 0px 100px;
   background-position:top center ;
 
 }
 
 .main-banner-section .text p {
-  color: darkgray;
+  color: rgb(65, 50, 50);
   text-align: justify;
 }
 
 p, .text {
-  
   text-align: justify;
 }
 
