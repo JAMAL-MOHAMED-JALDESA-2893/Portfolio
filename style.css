@@ -250,7 +250,7 @@ p, .text {
 
 .project-section {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   background-color: #dba1a1;
   position: relative;
   left: 15px;
@@ -437,7 +437,7 @@ p, .text {
 
 .footer{
   width: 100%;
-  height: 30vh;
+  min-height: 30vh;
   position: relative;
   top: 0;
   left: 0;
@@ -564,11 +564,21 @@ padding-top: 0;
     padding-right: 0;
   }
 
+   .project-section{
+    height: auto;
+  }
 
+  .card-wrapper  {
+    display: flex;
+   flex-wrap: wrap;
+  }
 }
 
 @media (max-width: 750px) {
-  
+  .card-wrapper  {
+    display: flex;
+   flex-wrap: wrap;
+  }
 
   .section-heading {
     font-size: 5.5rem;
