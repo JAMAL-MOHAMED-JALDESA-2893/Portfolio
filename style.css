@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  
+  box-sizing: border-box;
 
 
  
@@ -44,7 +44,7 @@ header {
 .banner {
   position: relative;
   background: url("./assets/salman-hossain-saif-KcbD8QoBGIk-unsplash.jpg");
-  min-height: 100vh;
+  height: 100vh;
   background-size: cover;
   background-position: center;
 
@@ -125,7 +125,7 @@ header {
 }
 }
 
-@keyframes moveInButton {
+@keyframes moveInBottom {
 0% {
   opacity: 0;
   transform: translateY(30px);
@@ -185,4 +185,17 @@ header {
  transform: scaleX(1.4) scaleY(1.6);
  opacity: 0;
 }
+
+.btn--animated {
+  animation: moveInBottom .5s ease-out .75s;
+  animation-fill-mode: backwards; }
+/* @media(max-width:350){
+  .banner{
+    padding: 250;
+  }
+  .banner h1 {
+    font-size: 1.8em;
+  }
+}
+*/
 
