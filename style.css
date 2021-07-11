@@ -38,7 +38,7 @@ header {
 
 .navbar-light .navbar-nav .nav-item .nav-link:hover,
 .navbar-light .navbar-nav .nav-item.active .nav-link {
-  background:greenyellow;
+  background:#4d5d97;
   color: white;
   border-radius: 7px;
 }
@@ -79,7 +79,7 @@ header {
 }
 
 .heading-primary {
-   color: rgb(51, 42, 42);
+   color: #222e5a;
    text-transform: uppercase;
    backface-visibility: hidden;
    margin-bottom: 40px;
@@ -188,7 +188,7 @@ header {
 }
 
 .btn-white::after {
-  background-color: rgb(219, 163, 163);
+  background-color: #4d5d97;
 }
 
 .btn:hover::after {
@@ -196,18 +196,6 @@ header {
  opacity: 0;
 }
 
-.btn--animated {
-  animation: moveInBottom .5s ease-out .75s;
-  animation-fill-mode: backwards; }
-/* @media(max-width:350){
-  .banner{
-    padding: 250;
-  }
-  .banner h1 {
-    font-size: 1.8em;
-  }
-}
-*/
 
 /*END OF BANNER SECTION */
 
@@ -351,7 +339,7 @@ p, .text {
 .contact-heading {
   font-size: 60px;
   font-weight: 400;
-  color: rgb(23, 95, 184);
+  color: #4d5d97;
   margin-bottom: 60px;
   letter-spacing: 35px;
   text-align: center;
@@ -371,7 +359,7 @@ p, .text {
   padding: 2rem;
   margin-bottom: 100px;
   border-radius: 25px;
-  background: #6dcadd;
+  background: #99b6e6;
   box-shadow:  20px 20px 60px #dbf9fd,
                -20px -20px 60px #bac4c5;
 }
@@ -383,7 +371,7 @@ p, .text {
   margin: 1.5rem 0;
   background-color: transparent;
   padding: 0.5rem;
-  border: 0.1rem solid rgb(62, 157, 192);
+  border: 0.1rem solid rgb(31, 17, 231);
   font-size: 1rem;
   letter-spacing: 0.1rem;
   color: rgb(112, 98, 98);
@@ -410,7 +398,7 @@ p, .text {
    border-radius: 100px;
    transition: all .2s;
    position: relative;
-   background-color: rgb(31, 17, 231);
+   background-color: #4d5d97;
    color: #fff;
  }
 
@@ -445,7 +433,7 @@ p, .text {
   display: flex;
   align-items: center;
   justify-content:center;
-  background: #2e3b68;
+  background: #4d5d97;
 }
 .footer-section {
   margin: 10px;
