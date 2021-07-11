@@ -1,3 +1,5 @@
+/*COMMON STYLES */
+
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +18,9 @@ body{
 margin: 1rem;
  
 }
+/*END OF COMMON STYLES */
 
+/*HEADER SECTION */
 header {
   position: absolute;
   z-index: 10;
@@ -42,6 +46,10 @@ header {
 .navbar-light .navbar-nav .nav-item .nav-link {
   padding: 6px 17px;
 }
+
+/*END OF HEADER SECTION */
+
+/* BANNER SECTION*/
 
 .banner {
   position: relative;
@@ -201,6 +209,11 @@ header {
 }
 */
 
+/*END OF BANNER SECTION */
+
+
+/*ABOUT ME SECTION */
+
 .main-banner-section {
   position: relative;
   background-image: url("./customer1.jpeg");
@@ -223,6 +236,10 @@ p, .text {
 
   animation: moveInRight 1.3s ease-out;
 }
+
+/*END OF ABOUT ME SECTION */
+
+/*PROJECT SECION */
 
 .center {
   display: flex;
@@ -313,3 +330,9 @@ p, .text {
   box-shadow: 0.1rem 0.1rem 0.5rem #bbb;
   cursor: pointer;
 }
+
+/*END OF PROJECT SECTION */
+
+/* CONTACT SECTION */
+
+/* END OF CONTACT SECTION */
