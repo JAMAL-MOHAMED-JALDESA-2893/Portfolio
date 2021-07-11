@@ -429,17 +429,110 @@ p, .text {
    opacity: 0;
  }
 
-.copyright {
-  font-size: 2rem;
-  font-weight: 300;
-  color: #fff;
-  text-align: center;
-}
+
 
 /* END OF CONTACT SECTION */
 
 /* FOOTER SECTION  */
 
+.footer{
+  width: 100%;
+  height: 30vh;
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  background: #5d6464;
+}
+.footer-section {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.footer-section .btn-gradient {
+  color: rgba(255,255,255,.54);
+  box-shadow: 0 0 1px rgba(255,255,255,0.54);
+}
+.footer-section .btn-gradient:hover {
+  color: #fff;
+  box-shadow: 20px 20px 60px #252121,
+  -20px -20px 60px #bbb2b2;;
+}
+ul li {
+  list-style: none;
+  display: inline-block;
+}
+.btn-gradient {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  display: block;
+  margin: 20px;
+  border-radius: 2px;
+  transition: all 300ms;
+  background: rgba(197, 188, 188, 0.15);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.btn-gradient i {
+  font-size: 30px;
+  line-height: 2.1;
+  vertical-align: middle;
+}
+.btn-gradient.rounded {
+  border-radius: 51% 49% 9% 91% / 52% 47% 53% 48% ;
+  border:  1px solid rgba(255,255,255,.54);
+}
 
+.footer-section .btn-gradient.facebook:hover {
+  box-shadow: 20px 20px 60px #bec3c4,
+  -20px -20px 60px #a8abac;
+  background: #f6f9fa;
+  background-size: 400%;
+  color: #3f51b5;
+}
+.footer-section .btn-gradient.google-plus:hover {
+ box-shadow: 20px 20px 60px #bec3c4,
+  -20px -20px 60px #a8abac;
+ background: #f3efee;
+ background: linear-gradient(to right,#f44336 0%,#ff1744 100%);
+ background-size: 400%;
+}
+.footer-section .btn-gradient.instagram:hover {
+  box-shadow: 20px 20px 60px #bec3c4,
+  -20px -20px 60px #a8abac;
+ background: #ffc107;
+ background: linear-gradient(to right,#ffc107 0%,#f50057 50%,#3f51b5 100%);
+ background-size: 400%;
+ animation: Gradient 1s ease infinite;
+}
+.footer-section .btn-gradient.twitter:hover {
+  box-shadow: 20px 20px 60px #bec3c4,
+  -20px -20px 60px #a8abac;
+ background: #00bcd4;
+ background: linear-gradient(to right,#00bcd4 0%,#2196f3 100%);
+ background-size: 400%;
+}
+.footer-section .btn-gradient.linkedin:hover {
+  box-shadow: 20px 20px 60px #bec3c4,
+  -20px -20px 60px #a8abac;
+ background: #0288d1;
+ background: linear-gradient(to right,#0288d1 0%,#2196f3 100%);
+ background-size: 400%;
+}
+
+.copyright {
+  color: #aaa;
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+  font-weight: 300;
+  text-align: center;
+padding-top: 0;
+}
 
 /*END OF FOOTER SECTION */
