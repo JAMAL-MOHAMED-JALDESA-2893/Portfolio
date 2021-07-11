@@ -199,3 +199,10 @@ header {
 }
 */
 
+.main-banner-section {
+  position: relative;
+  background-image: url("./customer1.jpeg");
+  background-size: cover;
+  padding: 90px 0px 250px;
+  background-position:top center ;
+}
