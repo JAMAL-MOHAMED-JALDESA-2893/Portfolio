@@ -212,8 +212,9 @@ header {
 }
 
 .main-banner-section .text p {
-  color: rgb(65, 50, 50);
+  color: #162044;
   text-align: justify;
+  font-size: 20px;
 }
 
 p, .text {
@@ -239,7 +240,7 @@ p, .text {
 .project-section {
   width: 100%;
   min-height: 100vh;
-  background-color: #dba1a1;
+  background-color: #b9d8e7;
   position: relative;
   left: 0px;
   margin-bottom: 0rem;
@@ -252,7 +253,7 @@ p, .text {
 .project-heading {
   font-size: 60px;
   font-weight: 400;
-  color: rgb(53, 42, 42);
+  color: #4d5d97;
   margin-bottom: 20px;
   letter-spacing: 35px;
   text-align: center;
@@ -266,9 +267,9 @@ p, .text {
 .card {
   width: 50rem;
   margin: 0 3rem;
-  background-color: rgb(230, 210, 210);
+  background-color: rgb(136, 169, 240);
   padding: 1rem;
-  box-shadow: 0.6rem 0.6rem 0.6rem #bbb;
+  box-shadow: 0.6rem 0.6rem 0.6rem rgb(113, 117, 160);
   position: relative;
   transition: box-shadow 0.5s;
 }
@@ -278,10 +279,10 @@ p, .text {
 }
 
 .project-name {
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   font-weight: 600;
   text-transform: uppercase;
-  color: rgb(68, 49, 49);
+  color: #e0e2eb;
   position: absolute;
   top: 1.2rem;
   left: 1.2rem;
@@ -300,13 +301,13 @@ p, .text {
 
 .description {
   font-size: 1rem;
-  color: rgb(207, 197, 197);
+  color: rgb(31, 48, 85);
   margin: 0.5rem 0;
 }
 
 .card-btn {
   width: 100%;
-  background-color: rgb(194, 152, 152);
+  background-color: rgb(129, 152, 163);
   font-size: 1rem;
   letter-spacing: 0.3rem;
   text-transform: uppercase;

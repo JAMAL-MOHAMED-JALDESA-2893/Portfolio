@@ -1,11 +1,10 @@
 # PORTFOLIO
-The project was designed by a team of 4 Moringa students, each working on different pages.
-* Jamal Muhamed: Working on Landing/Home page.
-* Joe Gakumo: Working on About Us page.
-* Moses King'ori: Working on Review page.
-* Lawrence Otieno: Working on Contact Us page.
 
+* Personal Web Portfolio (Meet The WEB DEV)
 
+### AUTHOR
+
+* JAMAL HASSAN MOHAMED.
 ## DESCRIPTION
 
 Meet the dev is a Personal Portfolio website show-casing the skills and the project developed towards 
@@ -18,16 +17,10 @@ my journey as a web developer.
 
 
 ## TECHNOLOGY
-This website was developed using HTML, CSS and JS programming languages. Coding was done on Visual Studio editor.
-* HTML: Used to develop the whole website.
-* CSS: Used to style the website to be appealing and stand-out.
-* JS: Used to make form validation, XXX and submission alert. 
-
-
-## SUPPORT AND CONTACT DETAILS
-Fill free to contact the Developers through email at care@findfundi.com.
-We are open for any recommendation and update suggestions.
-
+  is website was developed using HTML, CSS and BOOTSTRAP Technology.
+* HTML: Used to structure the website.
+* CSS: it is Used to style the website to make it appealing and stylish .
+* BOOTSTRAP: Used to style the site by using ready made CSS components. 
 
 # LICENSE
 [MIT License](https://choosealicense.com/licenses/mit/).
